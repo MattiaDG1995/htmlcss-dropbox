@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
 
 /* header{
     position: fixed;
@@ -99,9 +103,81 @@ h1{
     margin-right: 210px;
 }
 
-.card{
+.cont-title{
     margin: auto;
     width: 60%;
     margin-top: 80px;
 }
 
+.cont-card{
+    margin: auto;
+    width: 60%;
+    margin-top: 60px;
+}
+
+.sect1{
+    line-height: 30px;
+}
+
+.check1{
+    margin-left: 20px;
+}
+
+.check2{
+    margin-right: 25px;
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.box-title{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.box-main{
+    padding: 20px;
+}
+
+.box{
+    border: 1px solid lightgray;
+    flex-basis: 30%;
+}
+
+.sect2{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.sect2-1{
+    margin-top: 20px;
+    margin-bottom: 128px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.right-list{
+    margin-left: 10px;
+}
+
+
+.box-button{
+    background-color: blue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    text-align: center;
+    margin: auto;
+}
+
+.box-link{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
