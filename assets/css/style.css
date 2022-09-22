@@ -181,3 +181,29 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.schedacol{
+    margin-top: 40px;
+    border: 1px solid lightgrey;
+    padding: 15px;
+}
+
+.cont-col{
+    margin-top: 30px;
+}
+
+.colright{
+    line-height: 50px;
+}
+
+.sect3{
+    margin: auto;
+    width: 60%;
+}
+
+.box-button2{
+    background-color: blue;
+    color: white;
+    border: none;
+    
+}
