@@ -275,15 +275,15 @@ li{
 .square{
     width: 50%;
     background-color: red;
-    /* filter: invert(); */
-    text-align: center;
-    margin: auto;
+    
     aspect-ratio: 1/1;
     border: 1px solid black;
 }
 
 .immq{
     width: 100%;
+    filter: invert(1);
+    padding: 50px;
 }
 
 .square-left{
@@ -299,12 +299,16 @@ li{
 }
 
 .square-c{
-
+    padding: 70px;
     background-color: red;
     /* filter: invert(); */
-    text-align: center;
     aspect-ratio: 1/1;
     border: 1px solid black;
+}
+
+.text-c{
+    margin-top: 50px;
+    color: white;
 }
 
 
