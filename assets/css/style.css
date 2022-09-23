@@ -21,6 +21,7 @@
 }
 
 
+
 /* header{
     position: fixed;
     width: 100%;
@@ -33,6 +34,9 @@
 .cont-header{
     text-align: center;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 span{
@@ -199,11 +203,108 @@ li{
 .sect3{
     margin: auto;
     width: 60%;
+    margin-top: 50px;
 }
 
-.box-button2{
-    background-color: blue;
-    color: white;
-    border: none;
+.box-button-p{
+    background-color: white;
+    color: gray;
+    padding: 10px 10px;
+    border: 1px solid gray;
+    margin-top: 25px;
+}
+
+
+.img-partner{
+    flex-basis: 58%;
+}
+
+.part-img{
+    width: 100%;
+    ;
+}
+
+.text-partner{
+    padding-right: 130px;
+    margin-top: 30px;
+    flex-basis: 40%;
+    line-height: 30px;
+}
+
+.title-partner{
+    margin-bottom: 25px;
+}
+
+.contbutt{
+    width: 200px;
+}
+
+.box-businnes{
+    margin-bottom: 150px;
+}
+
+.title-businnes{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.card-businnes img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.card-businnes{
+    flex-basis: 32%;
+}
+
+.t-under-businnes{
+    font-size: 2rem;
+    margin-bottom: 120px;
+    margin-bottom: 40px;
+}
+
+.box-square{
+    
+    /* height: calc(100vw / 3); */
+    margin-top: 200px;
     
 }
+
+.square{
+    width: 50%;
+    background-color: red;
+    /* filter: invert(); */
+    text-align: center;
+    margin: auto;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+.immq{
+    width: 100%;
+}
+
+.square-left{
+    width: calc(100% / 3);
+}
+
+.square-center{
+    width: calc(100% / 3);
+}
+
+.square-right{
+    width: calc(100% / 3);
+}
+
+.square-c{
+
+    background-color: red;
+    /* filter: invert(); */
+    text-align: center;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
+
+
