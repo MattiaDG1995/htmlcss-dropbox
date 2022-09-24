@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flex{
@@ -37,6 +44,7 @@
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 1;
 }
 
 span{
@@ -52,14 +60,14 @@ span{
 }
 
 .butt-blue{
-    background-color: blue;
+    background-color:rgb(0, 97, 255);
     color: white;
     text-decoration: none;
     padding: 6px 10px;
 }
 
 .container{
-    background-color: aqua;
+    background-color: rgb(180, 208, 231);
     padding-top: 60px;
 }
 
@@ -67,11 +75,14 @@ span{
     margin: auto;
     width: 70%;
     margin-top: 50px;
+    position: relative;
+    top: 50px;
 }
 
 .title{
     margin: auto;
     width: 70%;
+    margin-top: 50px;
 }
 
 h1{
@@ -95,12 +106,12 @@ h1{
 }
 
 .arrow{
-    margin-top: 230px;
+    margin-top: 110px;
     font-size: 60px;
 }
 
 .butt{
-    background-color: blue;
+    background-color: rgb(0, 97, 255);
     color: white;
     text-decoration: none;
     padding: 10px 10px;
@@ -110,8 +121,12 @@ h1{
 .cont-title{
     margin: auto;
     width: 60%;
-    margin-top: 80px;
+    margin-top: 100px;
 }
+
+.busin-tit{
+   font-size: 2.5rem;
+} 
 
 .cont-card{
     margin: auto;
@@ -125,12 +140,17 @@ h1{
 
 .check1{
     margin-left: 20px;
+    
 }
 
 .check2{
     margin-right: 25px;
     display: inline-block;
     margin-top: 60px;
+}
+
+.bluecheck{
+    color: rgb(0, 97, 255);
 }
 
 .box-title{
@@ -158,6 +178,10 @@ h1{
     margin-bottom: 128px;
 }
 
+.fa-check{
+    color: rgb(0, 97, 255);
+}
+
 ul{
     list-style: none;
 }
@@ -173,7 +197,7 @@ li{
 
 
 .box-button{
-    background-color: blue;
+    background-color: rgb(0, 97, 255);
     color: white;
     padding: 10px 10px;
     border: none;
@@ -205,6 +229,8 @@ li{
     width: 60%;
     margin-top: 50px;
 }
+
+
 
 .box-button-p{
     background-color: white;
@@ -274,10 +300,45 @@ li{
 
 .square{
     width: 50%;
-    background-color: red;
+    background-color: ;
     
     aspect-ratio: 1/1;
-    border: 1px solid black;
+   
+}
+
+.prima{
+    background-color:rgb(162, 211, 155);
+}
+.seconda{
+    background-color: rgb(97, 8, 43);
+}
+
+.terza{
+    background-color: rgb(0, 147, 206);
+}
+
+.quarta{
+    background-color: rgb(255, 28, 28);
+}
+
+.quinta{
+    background-color: rgb(245, 245, 245);
+}
+
+.sesta{
+    background-color: rgb(213, 0, 31);
+}
+
+.settima{
+    background-color: rgb(180, 208, 231);
+}
+
+.ottava{
+    background-color: rgb(13, 36, 129);
+}
+
+.nona{
+    background-color: rgb(255, 216, 48);
 }
 
 .immq{
@@ -300,10 +361,10 @@ li{
 
 .square-c{
     padding: 70px;
-    background-color: red;
+    filter: invert(2);
     /* filter: invert(); */
     aspect-ratio: 1/1;
-    border: 1px solid black;
+    ;
 }
 
 .text-c{
@@ -311,4 +372,104 @@ li{
     color: white;
 }
 
+.sect-gratis{
+    background-color: rgb(180, 208, 231);
+}
 
+.contgratis{
+    margin: auto;
+    width: 70%;
+    padding: 150px;
+    
+}
+
+.butt-gratis{
+    background-color: white;
+    color: gray;
+    padding: 10px 10px;
+    
+}
+
+.gratis-right{
+    font-size: 1.5rem;
+    flex-basis: 36%;
+    color: rgb(97, 8, 43);
+}
+.cont-cont{
+    padding: 100px;
+}
+
+.cont-advanced{
+    margin: auto;  
+    padding: 30px;
+    border-top: 1px solid gray;
+}
+
+.cont-advanced-center{
+    margin: auto;  
+    padding: 30px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.cont-advanced-bottom{
+    margin: auto;
+    padding: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.h2-adv{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3rem;
+}
+
+.cont-cont{
+    margin: auto;
+    width: 70%;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: black;
+}
+
+.boss-cont{
+    margin: auto;
+    width: 55%;
+    color: white;
+}
+
+.cont-foot{
+    margin: auto;
+    ;
+    color: white;
+}
+
+.list-foot{
+    list-style: none;
+    margin-top: 80px;
+}
+
+.li-strong{
+    font-size: 25px;
+    margin-bottom: 25PX;
+}
+
+.list-foot{
+    margin-bottom: 100px;
+}
+
+.cont-ita{
+    
+} 
+
+hr{
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+.ita{
+    display: inline-block;
+    margin-bottom: 40px;
+}
