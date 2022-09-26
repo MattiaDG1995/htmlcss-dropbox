@@ -59,12 +59,23 @@ span{
     color: grey;
 }
 
+.span-nav:hover{
+    color: black;
+}
+
+
 .butt-blue{
     background-color:rgb(0, 97, 255);
     color: white;
     text-decoration: none;
     padding: 6px 10px;
 }
+
+.butt-blue:hover{
+    background-color:rgb(0, 150, 255);
+}
+
+
 
 .container{
     background-color: rgb(180, 208, 231);
@@ -118,6 +129,10 @@ h1{
     margin-right: 210px;
 }
 
+.butt:hover{
+    background-color:rgb(0, 150, 255);
+}
+
 .cont-title{
     margin: auto;
     width: 60%;
@@ -152,6 +167,7 @@ h1{
 .bluecheck{
     color: rgb(0, 97, 255);
 }
+
 
 .box-title{
     text-align: center;
@@ -205,6 +221,15 @@ li{
     margin: auto;
 }
 
+.box-button:hover{
+    background-color:rgb(0, 150, 255);
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
 .box-link{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -238,6 +263,12 @@ li{
     padding: 10px 10px;
     border: 1px solid gray;
     margin-top: 25px;
+}
+
+.box-button-p:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
 }
 
 
@@ -308,6 +339,7 @@ li{
 
 .prima{
     background-color:rgb(162, 211, 155);
+    border: 14px solid rgb(209, 233, 205);
 }
 .seconda{
     background-color: rgb(97, 8, 43);
@@ -387,7 +419,13 @@ li{
     background-color: white;
     color: gray;
     padding: 10px 10px;
-    
+    border: 1px solid gray
+}
+
+.butt-gratis:hover{
+    background-color: white;
+    color: rgb(189, 185, 185);
+    border: 1px solid rgb(189, 185, 185);
 }
 
 .gratis-right{
@@ -456,8 +494,16 @@ footer{
     margin-bottom: 25PX;
 }
 
+.li-strong:hover{
+    color: yellow;
+}
+
 .list-foot{
     margin-bottom: 100px;
+}
+
+.yellow:hover{
+    color: darkkhaki;
 }
 
 .cont-ita{
